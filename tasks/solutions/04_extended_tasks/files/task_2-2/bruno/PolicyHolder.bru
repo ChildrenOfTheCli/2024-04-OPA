@@ -1,0 +1,32 @@
+meta {
+  name: PolicyHolder
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8181/v1/data/play/allow
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "input": {
+      "documentId": "Doc_49193",
+      "requesterId": "Cus_8793"
+    }
+  }
+}
+
+tests {
+  test("should be ok", function() {
+    const data = res.getBody();
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("should be allowed", function() {
+    const data = res.getBody();
+    expect(data.result).to.be.true;
+  });
+}

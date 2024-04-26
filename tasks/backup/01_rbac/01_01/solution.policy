@@ -1,0 +1,22 @@
+package play
+
+import future.keywords.if
+
+# Welcome to the Rego playground! Rego (pronounced "ray-go") is OPA's policy language.
+#
+# You can navigate around and check out other examples! But please mind, that for our exercises,
+# there are permanent links in the github-readme, so you always can come back.
+
+default allow := false
+
+# Here goes your policy :-)
+allow {
+	# some customer means, for *any* value in the list.
+    # so for any value in the list data.customers, check if the customer-property
+    # customerId matches with the input requesterId.
+    some customer
+	input.requesterId == data.customers[customer][customerId]
+    
+    # Another solution would be the following 1-liner
+    #input.requesterId == data.customers[_][customerId]
+}

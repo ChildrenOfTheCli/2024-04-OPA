@@ -1,0 +1,280 @@
+{
+    "customers": [
+        {
+            "customerId": "Cus_1108",
+            "dateOfBirth": "1955-02-26",
+            "firstname": "Jennifer",
+            "lastname": "Carey"
+        },
+        {
+            "customerId": "Cus_2681",
+            "dateOfBirth": "1979-04-26",
+            "firstname": "Anthony",
+            "lastname": "Hughes"
+        },
+        {
+            "customerId": "Cus_3078",
+            "dateOfBirth": "1983-06-25",
+            "firstname": "Meagan",
+            "lastname": "Johnson"
+        },
+        {
+            "customerId": "Cus_7401",
+            "dateOfBirth": "1987-01-11",
+            "firstname": "Paula",
+            "lastname": "Hoffman"
+        },
+        {
+            "customerId": "Cus_6990",
+            "dateOfBirth": "1999-07-05",
+            "firstname": "Jeffrey",
+            "lastname": "Jones"
+        },
+        {
+            "customerId": "Cus_6678",
+            "dateOfBirth": "1972-10-31",
+            "firstname": "Kenneth",
+            "lastname": "Williams"
+        },
+        {
+            "customerId": "Cus_6145",
+            "dateOfBirth": "1980-01-24",
+            "firstname": "Kayla",
+            "lastname": "Johnson"
+        },
+        {
+            "customerId": "Cus_6753",
+            "dateOfBirth": "1988-09-23",
+            "firstname": "Jaclyn",
+            "lastname": "Norman"
+        },
+        {
+            "customerId": "Cus_5887",
+            "dateOfBirth": "1999-12-16",
+            "firstname": "Jasmine",
+            "lastname": "Peterson"
+        },
+        {
+            "customerId": "Cus_6607",
+            "dateOfBirth": "1961-08-14",
+            "firstname": "Joel",
+            "lastname": "Watkins"
+        },
+        {
+            "customerId": "Cus_8793",
+            "dateOfBirth": "1961-04-18",
+            "firstname": "Joseph",
+            "lastname": "Wagner"
+        },
+        {
+            "customerId": "Cus_5176",
+            "dateOfBirth": "1985-07-10",
+            "firstname": "Paul",
+            "lastname": "Thornton"
+        },
+        {
+            "customerId": "Cus_7159",
+            "dateOfBirth": "1968-07-25",
+            "firstname": "Tyler",
+            "lastname": "Burns"
+        },
+        {
+            "customerId": "Cus_2970",
+            "dateOfBirth": "2001-06-20",
+            "firstname": "John",
+            "lastname": "Fisher"
+        },
+        {
+            "customerId": "Cus_7876",
+            "dateOfBirth": "1972-02-11",
+            "firstname": "Joseph",
+            "lastname": "Molina"
+        },
+        {
+            "customerId": "Cus_2629",
+            "dateOfBirth": "1977-03-18",
+            "firstname": "Robert",
+            "lastname": "Edwards"
+        },
+        {
+            "customerId": "Cus_6082",
+            "dateOfBirth": "2003-05-21",
+            "firstname": "Angela",
+            "lastname": "Martin"
+        },
+        {
+            "customerId": "Cus_5645",
+            "dateOfBirth": "1998-03-04",
+            "firstname": "Bianca",
+            "lastname": "Jackson"
+        },
+        {
+            "customerId": "Cus_8408",
+            "dateOfBirth": "2008-01-11",
+            "firstname": "Ann",
+            "lastname": "Vargas"
+        },
+        {
+            "customerId": "Cus_3293",
+            "dateOfBirth": "1978-09-09",
+            "firstname": "James",
+            "lastname": "Wilkins"
+        },
+        {
+            "customerId": "Cus_8746",
+            "dateOfBirth": "1971-06-08",
+            "firstname": "Christopher",
+            "lastname": "Davis"
+        },
+        {
+            "customerId": "Cus_5644",
+            "dateOfBirth": "1954-08-20",
+            "firstname": "Alison",
+            "lastname": "Haney"
+        },
+        {
+            "customerId": "Cus_8656",
+            "dateOfBirth": "1990-09-22",
+            "firstname": "Antonio",
+            "lastname": "Castro"
+        },
+        {
+            "customerId": "Cus_7726",
+            "dateOfBirth": "1994-04-28",
+            "firstname": "Cindy",
+            "lastname": "Hooper"
+        },
+        {
+            "customerId": "Cus_7477",
+            "dateOfBirth": "1972-11-17",
+            "firstname": "Oscar",
+            "lastname": "Reed"
+        },
+        {
+            "customerId": "Cus_9716",
+            "dateOfBirth": "1964-08-26",
+            "firstname": "Chris",
+            "lastname": "Morgan"
+        },
+        {
+            "customerId": "Cus_8007",
+            "dateOfBirth": "1971-07-04",
+            "firstname": "Richard",
+            "lastname": "Warner"
+        },
+        {
+            "customerId": "Cus_5935",
+            "dateOfBirth": "1959-06-30",
+            "firstname": "Margaret",
+            "lastname": "Beck"
+        },
+        {
+            "customerId": "Cus_9915",
+            "dateOfBirth": "1962-12-12",
+            "firstname": "Amy",
+            "lastname": "West"
+        }
+    ],
+    "documents": [
+        {
+            "customerId": "Cus_1108",
+            "documentId": "Doc_48893",
+            "type": 1
+        },
+        {
+            "customerId": "Cus_2681",
+            "documentId": "Doc_58185",
+            "type": 1
+        },
+        {
+            "customerId": "Cus_6607",
+            "documentId": "Doc_59743",
+            "type": 1
+        },
+        {
+            "customerId": "Cus_5887",
+            "documentId": "Doc_86002",
+            "type": 1
+        },
+        {
+            "customerId": "Cus_2970",
+            "documentId": "Doc_49193",
+            "type": 1
+        },
+        {
+            "customerId": "Cus_2629",
+            "documentId": "Doc_74336",
+            "type": 1
+        },
+        {
+            "customerId": "Cus_6082",
+            "documentId": "Doc_90994",
+            "type": 1
+        },
+        {
+            "customerId": "Cus_5644",
+            "documentId": "Doc_56288",
+            "type": 1
+        },
+        {
+            "customerId": "Cus_8656",
+            "documentId": "Doc_55105",
+            "type": 1
+        },
+        {
+            "customerId": "Cus_9915",
+            "documentId": "Doc_84991",
+            "type": 1
+        }
+    ],
+    "policies": [
+        {
+            "additionalInsured": "Cus_2681",
+            "documents": "Doc_48893, Doc_58185",
+            "policyHolder": "Cus_1108",
+            "policyId": "Pol_46799"
+        },
+        {
+            "additionalInsured": "Cus_7401,Cus_6990, Cus_6678, Cus_6145, Cus_6753",
+            "documents": "",
+            "policyHolder": "Cus_3078",
+            "policyId": "Pol_62732"
+        },
+        {
+            "additionalInsured": "Cus_6607",
+            "documents": "Doc_59743, Doc_86002",
+            "policyHolder": "Cus_5887",
+            "policyId": "Pol_22591"
+        },
+        {
+            "additionalInsured": "Cus_5176, Cus_7159, Cus_2970",
+            "documents": "Doc_49193",
+            "policyHolder": "Cus_8793",
+            "policyId": "Pol_64269"
+        },
+        {
+            "additionalInsured": "Cus_2629",
+            "documents": "Doc_50967, Doc_74336",
+            "policyHolder": "Cus_7876",
+            "policyId": "Pol_90666"
+        },
+        {
+            "additionalInsured": "Cus_5645, Cus_8408, Cus_3293, Cus_8746",
+            "documents": "Doc_90994",
+            "policyHolder": "Cus_6082",
+            "policyId": "Pol_52749"
+        },
+        {
+            "additionalInsured": "Cus_8656, Cus_7726",
+            "documents": "Doc_56288, Doc_55105",
+            "policyHolder": "Cus_5644",
+            "policyId": "Pol_77232"
+        },
+        {
+            "additionalInsured": "Cus_9716, Cus_8007, Cus_5935, Cus_9915",
+            "documents": "Doc_84991",
+            "policyHolder": "Cus_7477",
+            "policyId": "Pol_95125"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+package play
+
+import future.keywords.if
+
+# Welcome to the Rego playground! Rego (pronounced "ray-go") is OPA's policy language.
+#
+# You can navigate around and check out other examples! But please mind, that for our exercises,
+# there are permanent links in the github-readme, so you always can come back.
+
+default allow := false
+
+# Here goes your policy :-)
+allow {
+	# first we want to find the owner of the document
+    some customer
+    input.documentId == data.documents[customer][documentId]
+    doc_owner := data.documents[customer][customerId]
+    print(doc_owner)
+    # If the doc_owner is the same as the requester, we're done.
+    doc_owner == input.requesterId
+}
+
+# Second case is the policyHolder is the requester, and the target is an additionalInusred
+allow {
+	# first we want to find the owner of the document
+    some customer
+    input.documentId == data.documents[customer][documentId]
+    doc_owner := data.documents[customer][customerId]
+    # Verify that doc_owner is an additionalInsured in a policy where requester is policyHolder
+    some i
+    # First, find the policy to the policyHolder
+    input.requesterId == data.policies[i][policyHolder]
+    # Next, verify doc_owner is additionalInsured
+    contains(data.policies[i][additionalInsured], doc_owner)
+    # Now we can allow if the doc_owner isn't 14 yeras old, remember task 2-2
+    some j
+    doc_owner == data.customers[j][customerId]
+    age := time.parse_ns("2006-01-02", data.customers[j][dateOfBirth])
+    [years, _, _, _, _, _] = time.diff(age, time.now_ns())
+    # Contrarly to task 2-2, we check that the doc_owner hasn't reached yet 14, else we can't allow the access.
+    max([years, 14]) == 14
+}
